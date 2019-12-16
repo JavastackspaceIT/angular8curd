@@ -32,3 +32,5 @@ then we have to create the "API/data.json" file in the src folder in angular 8 a
   }
   ]
 }
+
+
