@@ -1,0 +1,28 @@
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()"> 
+    <input type="text" formControlName="firstName" placeholder="FirstName">
+    <input type="text" formControlName="lastName" placeholder="lastName">
+    <input type="text" formControlName="email" placeholder="enter email">
+    <div formGroupName="address">
+        <input type="text" formControlName="address1" placeholder="enter address line 1">
+        <input type="text" formControlName="address2" placeholder="enter address line 2">
+    </div>
+    <div formArrayName="aliases">
+        <h3>Mobiles </h3> <button (click)="addAlias()">Add Mobile Number </button>
+      
+        <div *ngFor="let address of aliases.controls; let i=index">
+          <!-- The repeated alias template -->
+          <label>
+            Mobile:
+            <input type="text" [formControlName]="i">
+          </label>
+        </div>
+      </div>
+    <button type="submit" [disabled]="!formGroup.valid">Regiser</button>
+
+    <div>
+   <tr *ngFor ="let us of userdata">
+  {{us}}
+   </tr>
+
+    </div>
+</form>
