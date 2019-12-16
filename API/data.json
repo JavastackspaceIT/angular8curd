@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": 3,
+      "name": "Rakesh",
+      "age": "34",
+      "address": "Noida sector 27"
+    },
+    {
+      "id": 4,
+      "name": "Harley Cremin",
+      "age": "17",
+      "address": "14855 Cathy Square"
+    },
+    {
+      "id": 5,
+      "name": "Juana Ziemann",
+      "age": "16",
+      "address": "612 Dayana Stream"
+    },
+    {
+      "name": "rakesh",
+      "age": "25",
+      "address": "noida",
+      "id": 6
+    },
+    {
+      "name": "raja",
+      "age": "12",
+      "address": "hyd",
+      "id": 7
+    }
+  ]
+}
