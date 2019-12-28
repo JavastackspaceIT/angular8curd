@@ -1,6 +1,9 @@
 npm install -g json-server => which is used to install the node js server for performing the curd operation 
 
+json-server --watch API/data.json  => this command is use to start the server 
+
 then we have to create the "API/data.json" file in the src folder in angular 8 applcation directory
+
 
 {
   "students": [
